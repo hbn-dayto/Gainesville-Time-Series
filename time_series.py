@@ -19,13 +19,10 @@ plt.show()
 df = pd.read_csv('zillow_data_zip.csv')
 # print(df.head().T)
 
-# print(df['RegionName'])
-# print(df.loc[df[:, 'RegionName' == 32609]])
-
-
+# Gainesville Zip COdes
 zip_codes = np.array([32609, 32653, 32606, 32605, 32607, 32608, 32641, 32601, 32603, 32611])
 
-# zip_codes = [32609, 32653, 32606, 32605, 32607, 32608, 32641, 32601, 32603, 32611]
+# Sort Zip Codes in Ascending Order
 zip_codes.sort()
 
 
@@ -54,4 +51,4 @@ print(zip_code1.head())
 # print(df_filter.shape())
 
 # (x_values, y_values)
-plt.ploto_date(data, y)
+# plt.ploto_date(data, y)
