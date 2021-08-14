@@ -33,7 +33,7 @@ subset.to_csv('gainesville_data.csv', sep = ',', header = "None", index = None)
 zip_32608 = subset.iloc[0,9:]
 print(zip_32608.head())
 
-zip_32608.to_csv('32608.csv', index= 0, date = True,  sep = ',', header = "None")
+zip_32608.to_csv('32608.csv', index= 0, sep = ',', header = "None")
 zip_code1 = pd.read_csv('32608.csv')
 print(zip_code1.index)
 print(zip_code1.head())
